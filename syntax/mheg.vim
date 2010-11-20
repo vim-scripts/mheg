@@ -1,7 +1,8 @@
 " Vim syntax file
 " Language: MHEG-5 DVB
-" Maintainer: Paul Banks (http://paulbanks.org/)
+" Maintainer: Paul Banks (http://paulbanks.org/contact/)
 " Latest Revision: 20th November 2010
+" URL: http://paulbanks.org/projects/mhegvim/
 "
 
 if exists("b:current_syntax")
@@ -57,6 +58,7 @@ syn keyword mhgBool true false
 
 syn match mhgNumber '\d\+'
 syn region mhgString start='\'' end='\''
+syn region mhgString start='"' end='"'
 
 syn match mhgComment '\/\/.*$' 
 
